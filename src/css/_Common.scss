@@ -1,0 +1,100 @@
+@import "Colors";
+// textstyle
+h2 {
+    font-weight: 900;
+    color: $pure;
+    font-size: 2rem !important;
+}
+
+h3 {
+    font-weight: 500;
+    color: $black;
+}
+
+h4 {
+    font-weight: 700;
+    color: $pure;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: $para;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+section {
+    margin-top: 10rem;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 0rem 1rem !important;
+    }
+}
+
+// button style
+.gradinetBtn {
+    background: $gradinet !important;
+    color: $pure !important;
+    padding: 0.5rem 2rem !important;
+    border-radius: 0% !important;
+    transition: all 0.3s ease;
+    color: $pure !important;
+    border-width: 2px;
+    border-style: solid !important;
+    border-image: linear-gradient(to left, $startColor, $endColor) 1 !important;
+    transition: all 0.3s ease-in;
+}
+
+.gradinetBtn:hover {
+    background: transparent !important;
+    border-width: 2px;
+    border-style: solid !important;
+    border-image: linear-gradient(to left, $startColor, $endColor) 1 !important;
+}
+
+.boderBtn {
+    color: $pure !important;
+    background: transparent !important;
+    border-width: 2px;
+    border-radius: 0% !important;
+    border-style: solid !important;
+    border-image: linear-gradient(to left, $startColor, $endColor) 1 !important;
+    padding: 0.49rem 2rem !important;
+    transition: all 0.3s ease-in;
+}
+
+.boderBtn:hover {
+    background: $gradinet !important;
+    border-width: 2px;
+}
+
+.signUp {
+    margin-right: 2rem;
+}
+
+.bigPrimary {
+    background: $gradinet !important;
+    color: $pure !important;
+    padding: 0.5rem 2rem !important;
+    border-radius: 0.5rem !important;
+    display: block !important;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.viewDetailsBtn {
+    background: $gradinet !important;
+    color: $pure !important;
+    padding: 0.5rem 2.5rem !important;
+    border-radius: 0.5rem !important;
+    color: $pure !important;
+    position: absolute;
+    bottom: -6%;
+    margin: 0 auto;
+    border-radius: 0.5rem !important;
+}

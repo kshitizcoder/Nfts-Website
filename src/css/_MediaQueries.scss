@@ -1,0 +1,100 @@
+@media only screen and (max-width: 568px) {
+    .signUp {
+        margin-right: 1rem;
+    }
+    .gradinetBtn {
+        padding: 0.5rem 1rem !important;
+    }
+    .boderBtn {
+        padding: 0.49rem 1rem !important;
+    }
+}
+
+// Navbar
+@media only screen and (max-width: 768px) {
+    .nav-link::after {
+        background: none !important;
+    }
+}
+
+// Hero
+@media only screen and (max-width: 768px) {
+    .hero {
+        margin-top: 15rem;
+        .left {
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1rem;
+                margin: 1rem 0rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .left {
+        h1 {
+            font-size: 2.5rem !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .hero {
+        margin-top: 1rem;
+        .left {
+            margin-bottom: 2.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .image-wrapper {
+        margin-bottom: 5rem;
+    }
+}
+
+//Top Creator
+@media only screen and (max-width: 768px) {
+    .topCreators {
+        p {
+            width: 80% !important;
+            font-size: 1rem;
+        }
+        .creators {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .topCreators {
+        p {
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+}
+
+// subscribe
+@media only screen and (max-width: 1024px) {
+    .subRight {
+        h2 {
+            width: 100% !important;
+        }
+        p {
+            width: 100% !important;
+        }
+    }
+}
+
+// footer
+@media only screen and (max-width: 768px) {
+    .footer {
+        .footbranding {
+            flex-basis: 80% !important;
+        }
+    }
+}

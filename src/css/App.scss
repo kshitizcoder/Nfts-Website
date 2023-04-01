@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap");
+@import "Colors";
+@import "Common";
+@import "MediaQueries";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    border: none !important;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: $background !important;
+}
+
+// .main {
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+//     align-items: center;
+// }
+// .navbar-expand-lg .navbar-nav .nav-link
+.navbar-expand-lg {
+    padding: 0.8rem 1rem !important;
+    .fa-bars {
+        color: $pure;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: $pure !important;
+            margin-right: 1.3rem;
+            position: relative;
+            &::after {
+                content: "";
+                width: 0%;
+                height: 4px;
+                border-radius: 1.5rem;
+                background: $hover;
+                position: absolute;
+                right: 50%;
+                transform: translate(50%);
+                top: 100%;
+                transition: all 0.3s ease;
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+        .active::after {
+            content: "";
+            width: 100%;
+            height: 4px;
+            background: $hover;
+            position: absolute;
+            right: 50%;
+            transform: translate(50%);
+            top: 100%;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+// hero
+.hero {
+    margin-top: 5rem !important;
+    .left {
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+        }
+        p {
+            margin: 1.7rem 0 !important;
+        }
+    }
+}
+
+// collect some nft
+.image-wrapper {
+    position: relative;
+    .detailsBox {
+        background: $pure;
+        padding: 1rem;
+        width: 85%;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: -10%;
+        left: 8%;
+    }
+}
+
+// top creators
+.topCreators {
+    p {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .creators-box {
+        margin-top: 3rem;
+        .wrapper-creator {
+            background-color: $hover;
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 0.5rem;
+            position: relative;
+            padding: 2rem 0rem;
+        }
+    }
+}
+
+//Subscribe
+.subscribe {
+    .subRight {
+        h2 {
+            width: 60%;
+        }
+        p {
+            width: 85%;
+        }
+    }
+}
+
+// Nfts Collection
+.nftsCollection {
+    .nft-coll-wapper {
+        background-color: $hover;
+        padding: 3rem 0rem;
+        border-radius: 9rem 9rem;
+        margin-top: 2rem;
+        a {
+            color: $endColor;
+        }
+    }
+}
+
+// footer
+.footer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    .footer-warpper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        .footbranding {
+            flex-basis: 40%;
+        }
+        .footLinks {
+            flex-basis: 10%;
+        }
+        .footLinks {
+            ul {
+                li {
+                    list-style: none;
+                    margin-left: -2rem;
+                    color: $pure;
+                }
+            }
+        }
+    }
+}
