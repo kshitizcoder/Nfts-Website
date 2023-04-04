@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import banner from "../images/banner.png";
+import backgroundText from "../images/background-text.png";
 const Hero = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const Hero = () => {
             >
               <h1
                 style={{
-                  backgroundImage: `url("../images/background-text.png")`,
+                  backgroundImage: `url(${backgroundText})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                   backgroundClip: "text",
@@ -39,7 +41,7 @@ const Hero = () => {
               data-aos-offset="500"
               data-aos-duration="700"
             >
-              <img src="../images/banner.png" alt="#" className="img-fluid" />
+              <img src={banner} alt="#" className="img-fluid" />
             </div>
           </div>
         </div>

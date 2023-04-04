@@ -1,13 +1,13 @@
 import React from "react";
 import Button from "./Button";
-
+import logo from "../images/logo.svg";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid align-items-center">
           <a className="navbar-brand" href="#">
-            <img src="../images/logo.svg" alt="" className="img-fluid" />{" "}
+            <img src={logo} alt="" className="img-fluid" />{" "}
           </a>
           <button
             className="navbar-toggler"

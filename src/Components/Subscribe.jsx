@@ -1,5 +1,5 @@
 import React from "react";
-
+import sub from "../images/s1.png";
 const Subscribe = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Subscribe = () => {
               data-aos="zoom-in-up"
               data-aos-offset="300"
             >
-              <img src="./images/s1.png" alt="" className="img-fluid " />
+              <img src={sub} alt="" className="img-fluid " />
             </div>
             <div data-aos="zoom-in-down" className="subRight col-md-6">
               <h2>Subscribe And get Latest news update about NFTs.</h2>
