@@ -1,12 +1,12 @@
 import React from "react";
-
+import logo from "../images/logo.svg";
 const Footer = () => {
   return (
     <>
       <footer className="footer">
         <div className="footer-warpper ">
           <div className="footbranding footerItems">
-            <img src="./images/logo.svg" alt="" className="img-fluid" />
+            <img src={logo} alt="" className="img-fluid" />
             <p>
               Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed
               augue. Posuere ac in in nisl sed augue.

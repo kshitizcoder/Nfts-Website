@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Nft } from "../../src/Dummytext/Dummy";
+import { Nft } from "../Dummytext/Dummy";
 import Button from "./Button";
 const NftsCollection = () => {
   const [nfts, setNfts] = useState([]);

@@ -12,9 +12,27 @@ import nftc1 from "../images/nftC1.png"
 import nftc2 from "../images/nftC2.png"
 import nftc3 from "../images/nftC3.png"
 import nftc4 from "../images/nftC4.png"
+import brand1 from "../images/1.png"
+import brand2 from "../images/2.png"
+import brand3 from "../images/3.png"
+import brand4 from "../images/4.png"
+import brand5 from "../images/5.png"
 
 
+export const ourBrand = [
 
+  {
+    brandImg: brand1
+  }, {
+    brandImg: brand2
+  }, {
+    brandImg: brand3
+  }, {
+    brandImg: brand4
+  }, {
+    brandImg: brand5
+  }
+]
 
 
 export const Nft = [{

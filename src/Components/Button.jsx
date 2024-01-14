@@ -1,13 +1,7 @@
 import React from "react";
 
-const Button = ({ text, style }) => {
-  return (
-    <>
-      <a href="" className={style}>
-        {text}
-      </a>
-    </>
-  );
+const Button = ({ style, text }) => {
+  return <a className={style}>{text}</a>;
 };
 
 export default Button;
